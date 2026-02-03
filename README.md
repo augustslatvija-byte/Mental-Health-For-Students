@@ -595,7 +595,7 @@
             e.preventDefault();
             const message = chatInput.value.trim();
             if (message) {
-                addMessage(message, true);
+                addMessage(message, true);    
                 chatInput.value = '';
                 
                 // Show AI 'typing' delay
